@@ -2,12 +2,10 @@
 # https://api.twitch.tv/v5/videos/998053793/comments?content_offset_seconds=0
 # https://api.twitch.tv/v5/videos/998053793/comments?cursor=eyJpZCI6Ijc4NjkyZjQ3LWVjMjQtNDJkOC1hODQ3LWFlZWQ5YmRlMjM1YiIsImhrIjoiYnJvYWRjYXN0OjQxNTQ3NTAwNTU3Iiwic2siOiJBQUFEZ1RHY2JvQVdlSThfeHFOZGdBIn0f
 
-
 import urllib.request
 import os.path
 import os
 import json
-from types import SimpleNamespace
 import hashlib
 import re
 
