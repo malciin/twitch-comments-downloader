@@ -1,9 +1,5 @@
-# ClientId
-
-# [a.Q.Www]={clientID:"
-
+# ClientId [a.Q.Www]={clientID:"
 # https://api.twitch.tv/v5/videos/998053793/comments?content_offset_seconds=0
-
 # https://api.twitch.tv/v5/videos/998053793/comments?cursor=eyJpZCI6Ijc4NjkyZjQ3LWVjMjQtNDJkOC1hODQ3LWFlZWQ5YmRlMjM1YiIsImhrIjoiYnJvYWRjYXN0OjQxNTQ3NTAwNTU3Iiwic2siOiJBQUFEZ1RHY2JvQVdlSThfeHFOZGdBIn0f
 
 
@@ -36,7 +32,6 @@ def download(url, clientId = None, cache = True):
         error = httpError.read().decode('utf-8')
         print(error)
         return None
-
 
     data = resource.read().decode('utf-8')
 
